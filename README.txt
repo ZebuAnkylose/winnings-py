@@ -8,6 +8,6 @@ data analysis in Python 3
 ------------------------ file = open(fname, "r")
 ------------------------------------------------
 ------------------------ class ExcelFr(csv.excel) :
------------------------------- délimiter =";"
+------------------------------ delimiter =";"
 ------------------------ csv.register_dialect('excel-fr', ExcelFr())
 
