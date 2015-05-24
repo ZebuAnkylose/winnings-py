@@ -17,7 +17,7 @@ finally:
     
     length=len(varlist)
     for var1 in range(length): #nb sous listes
-      for var2 in range(7): #X
+      for var2 in range(7): #nb valeurs par sous listes
         varlist[var1][var2]=int(varlist[var1][var2])
     varlist_v1v0 #tri selon varlist[var1][0]
     for var3 in range(1,51): #Tri selon 51 premieres valeurs possible
