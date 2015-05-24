@@ -2,15 +2,15 @@ try:
   varlist=[]
   counter=0
   reader = csv.reader(file, 'excel-fr')
-  for column in reader:
+  for raw in reader:
     varlist.append([])
-    varlist[counter].append(column[X])
-    varlist[counter].append(column[X+1])
-    varlist[counter].append(column[X+2])
-    varlist[counter].append(column[X+3])
-    varlist[counter].append(column[X+4])
-    varlist[counter].append(column[X+5])
-    varlist[counter].append(column[X+6])
+    varlist[counter].append(raw[X])
+    varlist[counter].append(raw[X+1])
+    varlist[counter].append(raw[X+2])
+    varlist[counter].append(raw[X+3])
+    varlist[counter].append(raw[X+4])
+    varlist[counter].append(raw[X+5])
+    varlist[counter].append(raw[X+6])
     counter+=1
 finally:
     file.close()
